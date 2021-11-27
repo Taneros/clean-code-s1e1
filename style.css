@@ -50,11 +50,13 @@ ul {
   padding: 0px;
 }
 
+/* separate selectors and properties */
 li,
 h3 {
   list-style: none;
 }
 
+/* separate selectors and properties */
 input,
 button {
   outline: none;
