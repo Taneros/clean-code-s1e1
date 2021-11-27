@@ -165,11 +165,11 @@ li > input[type="text"] {
 /* Edit Task */
 
 ul li input[type="text"] {
-  display: none;
+  display:  none;
 }
 
 ul .editMode input[type="text"] {
-  display: inline-block;
+  display:  inline-block;
   width: 224px;
 }
 
