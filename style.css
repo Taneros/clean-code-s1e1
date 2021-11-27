@@ -54,7 +54,8 @@ body {
   list-style: none;
 }
 
-.task-item__input, .task-item__btn {
+.task-item__input,
+.task-item__btn {
   outline: none;
 }
 
@@ -166,12 +167,12 @@ ul#completed-tasks label {
   display: none;
 }
 
-.main-page__tasks-list .task-item.editable .task-item__input--text {
+.task-item.editable .task-item__input--text {
   display: inline-block;
   width: 224px;
   flex-grow: 1;
 }
 
-.main-page__tasks-list .task-item.editable .task-item__label {
+.task-item.editable .task-item__label {
   display: none;
 }
