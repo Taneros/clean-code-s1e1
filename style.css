@@ -114,7 +114,7 @@ body {
 
 /* Task list */
 
-li.task-item {
+.main-page__tasks-list .task-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -156,7 +156,7 @@ li.task-item {
 
 /* Completed */
 
-ul#completed-tasks label {
+#completed-tasks .task-item__label {
   text-decoration: line-through;
   color: #888;
 }
