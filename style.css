@@ -1,9 +1,14 @@
-/* Basic Style */
+* {
+  margin: 0;
+  padding: 0;
+}
 
-body {
+.wrapper {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
+  width: 100%;
+  height: 100%;
 }
 
 .header {
@@ -123,10 +128,6 @@ body {
   align-items: center;
 }
 
-/* li > * {
-  vertical-align: middle;
-} */
-
 .task-item__input--checkbox {
   margin: 0 10px;
 }
@@ -139,10 +140,6 @@ body {
   flex-grow: 1;
   display: inline-block;
 }
-
-/* li > input[type="text"] {
-  width: 226px;
-} */
 
 .task-item__rmv-img {
   height: 2em;
