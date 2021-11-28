@@ -159,7 +159,7 @@
 
 /* Completed */
 
-#complete-tasks .task-item__label {
+.app__complete .task-item__label {
   text-decoration: line-through;
   color: #888;
 }
