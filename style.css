@@ -34,23 +34,23 @@
 
 }
 
-.main-page {
+.app {
   display: block;
   width: 500px;
   margin: 0 auto;
 }
 
-.main-page__new-task .task-item__input {
+.app__new-task .task-item__input {
   display: inline-block;
   flex-grow: 1;
 }
 
-.main-page__new-task {
+.app__new-task {
   display: flex;
   justify-content: space-between;
 }
 
-.main-page__tasks-list {
+.app__tasks-list {
   margin: 0;
   padding: 0px;
 }
@@ -80,7 +80,7 @@
 
 /* Heading */
 
-.main-page__heading {
+.app__heading {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -109,17 +109,17 @@
 
 /* New Task */
 
-.main-page__new-task {
+.app__new-task {
   margin-top: 20px;
 }
 
-.main-page__new-task .task-item__input {
+.app__new-task .task-item__input {
   width: 318px;
 }
 
 /* Task list */
 
-.main-page__tasks-list .task-item {
+.app__tasks-list .task-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -160,7 +160,7 @@
 
 /* Edit Task */
 
-.main-page__tasks-list .task-item .task-item__input--text {
+.app__tasks-list .task-item .task-item__input--text {
   display: none;
 }
 
