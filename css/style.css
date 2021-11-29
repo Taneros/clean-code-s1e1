@@ -46,24 +46,12 @@
   margin: 0 auto;
 }
 
-.app__new-task .task-item__input {
-  display: inline-block;
-  flex-grow: 1;
-}
-
-.app__new-task {
-  display: flex;
-  justify-content: space-between;
-}
-
 .app__tasks-list {
   margin: 0;
   padding: 0px;
 }
 
-.task-item {
-  list-style: none;
-}
+/* Task Item Buttons */
 
 .task-item__input,
 .task-item__btn {
@@ -96,6 +84,32 @@
   text-transform: uppercase;
 }
 
+/* New Task */
+
+.app__new-task .task-item__input {
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.app__new-task {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__new-task {
+  margin-top: 20px;
+}
+
+.app__new-task .task-item__input {
+  width: 318px;
+}
+
+/* Task list */
+
+.task-item {
+  list-style: none;
+}
+
 .task-item__input--text {
   margin: 0;
   font-size: 18px;
@@ -112,18 +126,6 @@
 .task-item__input--text:focus {
   color: #333;
 }
-
-/* New Task */
-
-.app__new-task {
-  margin-top: 20px;
-}
-
-.app__new-task .task-item__input {
-  width: 318px;
-}
-
-/* Task list */
 
 .app__tasks-list .task-item {
   overflow: hidden;
@@ -157,7 +159,7 @@
   transform: rotateZ(0);
 }
 
-/* Completed */
+/* Complete Task */
 
 .app__complete .task-item__label {
   text-decoration: line-through;
